@@ -66,6 +66,7 @@ public class col1 : MonoBehaviour
                         Mathf.Abs(transform.position.y - objectPlace.position.y) <= 0.5f)
                     {
                         objectColor.SetActive(true);
+                        transform.position = new Vector2(initialPos.x, initialPos.y);
                         locked = true;
                     }
                     else
