@@ -65,6 +65,7 @@ public class col3 : MonoBehaviour
                     {
                         objectColor.SetActive(true);
                         transform.position = new Vector2(initialPos.x, initialPos.y);
+                        transform.gameObject.SetActive(false);
                         locked = true;
                     }
                     else
